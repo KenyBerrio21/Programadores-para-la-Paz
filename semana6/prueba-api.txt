@@ -1,0 +1,8 @@
+El servidor responde con un estado HTTP 200 OK y devuelve un objeto JSON que confirma la recepción de los datos enviados por el cliente. 
+
+Estructura de la respuesta recibida:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
