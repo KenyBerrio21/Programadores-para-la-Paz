@@ -1,0 +1,22 @@
+Entidad: Reporte_Incidencia
+
+Campos principales:
+- id (numérico, clave primaria)
+- categoria (texto: agua, luz, vías)
+- descripcion (texto largo)
+- ubicacion_general (texto: barrio o sector)
+- fecha_creacion (timestamp)
+- estado (texto: pendiente, en proceso, resuelto)
+
+Propósito: Almacenar los problemas comunitarios reportados para mantener un registro histórico y público de las fallas sin exponer direcciones exactas.
+
+
+Entidad: Veedor_Asignado
+
+Campos principales:
+- id (numérico, clave primaria)
+- reporte_id (clave foránea vinculada a Reporte_Incidencia)
+- rol_equipo (texto: revisor, técnico)
+- ultima_actualizacion (timestamp)
+
+Propósito: Vincular qué perfil del equipo de control social está asignado al seguimiento del caso para garantizar la trazabilidad interna de la gestión.
