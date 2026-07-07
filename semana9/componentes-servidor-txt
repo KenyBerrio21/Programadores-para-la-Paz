@@ -1,0 +1,5 @@
+Sistema operativo: Es la capa de software base encargada de gestionar los recursos físicos de hardware y proveer el entorno donde se ejecutan los servicios.
+Node.js: Es el entorno de ejecución que interpreta y procesa el código JavaScript en el lado del servidor, manejando las solicitudes de forma asíncrona.
+Aplicación server.js: Es el archivo de código fuente desarrollado en Express que define la lógica del negocio, los endpoints y el comportamiento de la API.
+Puerto: Es la interfaz lógica o canal específico (como el puerto 3000) que el servidor utiliza para escuchar y canalizar el tráfico de datos entrante.
+Logs: Son los archivos de registro histórico donde se anotan automáticamente los eventos, accesos, advertencias y errores ocurridos durante la ejecución.
