@@ -1,0 +1,5 @@
+1. No exponer datos personales de los usuarios de la comunidad.
+2. Proteger y cifrar las credenciales de acceso al servidor.
+3. Usar conexiones seguras mediante protocolos HTTPS y SSH.
+4. Registrar y monitorear los accesos de los administradores.
+5. Limitar el acceso a información sensible solo a personal autorizado.
