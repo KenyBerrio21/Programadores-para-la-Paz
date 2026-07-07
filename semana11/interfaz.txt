@@ -1,0 +1,5 @@
+La interfaz de usuario constará de un panel web dividido en dos secciones principales. 
+
+La primera sección incluirá un formulario estructurado para crear reportes, compuesto por campos de selección para la categoría de la falla, un área de texto para la descripción detallada y un selector de sector general. 
+
+La segunda sección mostrará la vista de incidencias activas en formato de tarjetas. Cada tarjeta renderizará de forma dinámica el contador de apoyos comunitarios acumulados y un botón interactivo para que los ciudadanos sumen su validación al caso. El diseño priorizará la visualización clara de las métricas de participación, omitiendo por completo cualquier metadato personal o privado de los usuarios que interactúan con el sistema.
