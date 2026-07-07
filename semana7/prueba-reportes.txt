@@ -1,0 +1,15 @@
+Al consultar la ruta GET /reportes después de realizar los registros mediante POST, el servidor responde devolviendo la lista completa de las incidencias almacenadas temporalmente. Como la API guarda los datos dentro de un array en memoria dinámica, la respuesta agrupa todos los objetos estructurados de forma secuencial con sus respectivos IDs incrementales.
+
+Estructura obtenida en la consulta:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+]
