@@ -1,0 +1,11 @@
+¿Qué 2 tareas del backlog harías primero?
+Haría primero la Historia 1 (que el ciudadano pueda registrar la falla) y la Historia 2 (que el coordinador reciba la alerta en Telegram).
+
+¿Por qué son las más importantes?
+Porque sin el registro del reporte no existe información para trabajar, y sin la alerta en Telegram el equipo de veeduría no se entera a tiempo. Estas dos tareas forman la base mínima para que la plataforma sea útil desde el primer día.
+
+Definición de "Terminado" (Definition of Done - DoD):
+Para que una tarea se considere completamente finalizada en este proyecto, debe cumplir los siguientes 3 criterios:
+1. El código es funcional y cumple el objetivo sin romperse en el entorno local.
+2. Fue probada manualmente simulando el comportamiento real de un usuario.
+3. El código limpio quedó guardado y registrado en el repositorio de Git.
