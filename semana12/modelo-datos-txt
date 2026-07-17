@@ -1,0 +1,17 @@
+MODELO DE DATOS - PETICIÓN EN 3 CLICS
+
+Entidad: Causa
+- id (Número/Clave primaria): Identificador único de cada causa.
+- titulo (Texto): Nombre descriptivo de la petición comunitaria.
+- descripcion (Texto): Explicación detallada de la problemática y la solicitud formal.
+- fecha (Fecha): Día y hora en la que se creó y publicó la causa en la plataforma.
+
+Explicación: Esta entidad sirve para registrar y gestionar de forma centralizada cada una de las iniciativas o solicitudes colectivas que los usuarios de la comunidad proponen solucionar.
+
+Entidad: Apoyo
+- id (Número/Clave primaria): Identificador único de cada firma/apoyo registrado.
+- causa_id (Número/Clave foránea): Relación directa que vincula el apoyo a una Causa específica.
+- nombre (Texto): Nombre de la persona que apoya (cumpliendo con la minimización de datos).
+- fecha (Fecha): Registro del momento exacto en el que el usuario firmó la causa.
+
+Explicación: Esta entidad sirve para auditar y almacenar la cantidad de respaldos que tiene una iniciativa específica, vinculando cada firma de manera segura con su respectiva causa sin comprometer datos confidenciales.
