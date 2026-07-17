@@ -1,0 +1,7 @@
+Flujo de funcionamiento de la plataforma "Petición en 3 Clics":
+
+1. Un ciudadano (organizador) registra una causa comunitaria en la plataforma describiendo la problemática y el objetivo de la petición.
+2. La plataforma almacena la causa en la base de datos y genera un enlace público único para que se pueda difundir.
+3. Otros miembros de la comunidad ingresan al enlace, leen la propuesta y registran su firma de apoyo ingresando únicamente sus datos esenciales.
+4. El sistema contabiliza y asocia de forma segura cada nuevo apoyo a la causa correspondiente en la base de datos en tiempo real.
+5. Al alcanzar la meta o la fecha límite, la plataforma recopila los apoyos, genera un PDF formal con la petición y el listado de firmas, y dispara una notificación de cierre.
