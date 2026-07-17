@@ -1,0 +1,14 @@
+FLUJO DE AUTOMATIZACIÓN (n8n / Telegram)
+
+1. Evento que activa la automatización:
+Se registra un nuevo apoyo en una causa activa dentro de la base de datos de la plataforma.
+
+2. Mensaje que se envía de forma automática:
+"¡Nuevo apoyo registrado! La causa '[Título de la Causa]' acaba de recibir un nuevo respaldo de la comunidad. Ya contamos con [Total de Apoyos] firmas en total."
+
+3. Información que NO debe enviarse por seguridad (Minimización de Datos):
+- Nombres completos de los firmantes.
+- Números de documento de identidad (cédula).
+- Correos electrónicos o números telefónicos.
+- Direcciones físicas o información de ubicación de los usuarios.
+- Comentarios privados o notas con datos sensibles de salud, filiación política o creencias.
